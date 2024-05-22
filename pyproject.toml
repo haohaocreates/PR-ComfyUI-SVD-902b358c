@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-svd"
+description = "Preliminary use of SVD in ComfyUI.\nNOTE: Quick Implementation, Unstable. See details on repositories."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["einops", "omegaconf", "pytorch-lightning==2.0.1", "open-clip-torch>=2.20.0", "hatchling", "sgm @ git+https://github.com/Stability-AI/generative-models", "xformers>=0.0.20", "kornia==0.6.9"]
+
+[project.urls]
+Repository = "https://github.com/kijai/ComfyUI-SVD"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SVD"
+Icon = ""
